@@ -97,6 +97,17 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
               ),
+              Container(
+                height: 35,
+                width: 35,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  border: Border.all(
+                    color: Colors.grey,
+                    width: 2,
+                  ),
+                ),
+              ),
               //Dot
               CircleAvatar(
                 radius: 8,
